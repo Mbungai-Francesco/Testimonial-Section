@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/css-flexbox-LGQvbpp7Xw)
 - Live Site URL: [Add live site URL here](https://mbungai-francesco.github.io/Testimonial-Section/)
 
 ## My process

@@ -111,3 +111,135 @@ p{
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media ( max-width:1270px ) {
+  body{
+    height: 130vh;
+  }
+  main{
+    flex-direction: column;
+    height: fit-content;
+    height: 121vh;
+  }
+  .left{
+    width: 100%;
+  }
+  .right{
+    width: 93.5%;
+    height: 30.5vh;
+  }
+}
+@media (max-width : 1030px){
+  body{
+    height: 210vh;
+  }
+  main{
+    height: 203.5vh;
+  }
+  .left{
+    height: 161vh;
+  }
+  .row{
+    flex-direction: column;
+    align-items: start;
+    height: 79.5vh;
+  }
+  .row:nth-child(1) .card:nth-child(1){
+    width: 93.5%;
+  }
+  .row:nth-child(1) .card:nth-child(2){
+    width: 42%;
+  }
+  .row:nth-child(2) .card:nth-child(1){
+    align-self: flex-end;
+    width: 42%;
+  }
+  .row:nth-child(2) .card:nth-child(2){
+    width: 93.5%;
+  }
+}
+@media (max-width : 640px){
+  body{
+    height: 230vh;
+  }
+  main{
+    width: 90%;
+    height: 205.5vh;
+  }
+  .row:nth-child(1) .card:nth-child(1){
+    width: 88%;
+  }
+  .row:nth-child(1) .card:nth-child(2){
+    width: 88%;
+  }
+  .row:nth-child(2) .card:nth-child(1){
+    align-self: unset;
+    width: 88%;
+  }
+  .row:nth-child(2) .card:nth-child(2){
+    width: 88%;
+  }
+  .right{
+    width: 88%;
+    height: fit-content;
+  }
+}
+@media (max-width : 570px){
+  body{
+    height: fit-content;
+    padding-bottom: 1em;
+  }
+  main{
+    height: fit-content;
+  }
+  .left{
+    height: fit-content;
+  }
+  .row{
+    height: fit-content;
+  }
+  .card{
+    margin: 1em 0;
+  }
+  .row:nth-child(1) .card:nth-child(1){
+    height: fit-content;
+    width: 80%;
+  }
+  .row:nth-child(1) .card:nth-child(2){
+    width: 80%;
+  }
+  .row:nth-child(2) .card:nth-child(1){
+    align-self: unset;
+    width: 80%;
+  }
+  .row:nth-child(2) .card:nth-child(2){
+    height: fit-content;
+    width: 80%;
+  }
+  .right{
+    width: 80%;
+  }
+}
+@media (max-width : 340px){
+  main{
+    width: 90%;
+  }
+  .row:nth-child(1) .card:nth-child(1){
+    height: fit-content;
+    width: 76%;
+  }
+  .row:nth-child(1) .card:nth-child(2){
+    width: 76%;
+  }
+  .row:nth-child(2) .card:nth-child(1){
+    align-self: unset;
+    width: 76%;
+  }
+  .row:nth-child(2) .card:nth-child(2){
+    height: fit-content;
+    width: 76%;
+  }
+  .right{
+    width: 76%;
+  }
+}

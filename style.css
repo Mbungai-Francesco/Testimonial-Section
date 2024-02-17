@@ -215,7 +215,7 @@ p{
   .row:nth-child(2) .card:nth-child(2){
     height: fit-content;
     width: 80%;
-  }
+  } 
   .right{
     width: 80%;
   }
